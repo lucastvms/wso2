@@ -3,21 +3,24 @@
 
 This project demonstrates how to create and deploy a custom Gateway JWT generator for WSO2 API Manager 4.3.0. By implementing a custom generator, you gain fine-grained control over the claims included in the JSON Web Tokens (JWTs) issued by the API Gateway.
 
-This README provides instructions on how to build, deploy, and configure the custom JWT generator. It follows the steps outlined in the Medium post "[Level Up Your API Security: Creating a Custom JWT Generator in WSO2 API Manager 4.3.0 (Beginner-Friendly)](https://medium.com/@lucas.tvms/level-up-your-api-security-creating-a-custom-jwt-generator-in-wso2-api-manager-4-3-0-618a156b59c1)".
+This README provides instructions on how to build, deploy, and configure the custom JWT generator. 
+It follows the steps outlined in the Medium post: 
+https://medium.com/@lucas.tvms/level-up-your-api-security-creating-a-custom-jwt-generator-in-wso2-api-manager-4-3-0-618a156b59c1.
 
 ## Table of Contents
 
-* [Prerequisites](#prerequisites)
-* [Project Structure](#project-structure)
-* [Setup](#setup)
-    * [1. Create Maven Project](#1-create-maven-project)
-    * [2. Write Custom JWT Generator](#2-write-custom-jwt-generator)
-    * [3. Build with Maven](#3-build-with-maven)
-    * [4. Deploy to WSO2 API Manager](#4-deploy-to-wso2-api-manager)
-    * [5. Configure API Manager](#5-configure-api-manager)
-* [Customization](#customization)
-* [Contributing](#contributing)
-* [License](#license)
+* Prerequisites
+* Project Structure
+* Setup
+    * 1. Create Maven Project
+    * 2. Write Custom JWT Generator
+    * 3. Build with Maven
+    * 4. Deploy to WSO2 API Manager
+    * 5. Configure API Manager
+* Customization
+* Contributing
+* License
+
 
 ## Prerequisites
 
