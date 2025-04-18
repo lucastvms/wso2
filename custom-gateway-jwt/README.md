@@ -3,7 +3,7 @@
 
 This project demonstrates how to create and deploy a custom Gateway JWT generator for WSO2 API Manager 4.3.0. By implementing a custom generator, you gain fine-grained control over the claims included in the JSON Web Tokens (JWTs) issued by the API Gateway.
 
-This README provides instructions on how to build, deploy, and configure the custom JWT generator. It follows the steps outlined in the Medium post "[Level Up Your API Security: Creating a Custom JWT Generator in WSO2 API Manager 4.3.0 (Beginner-Friendly)](YOUR_MEDIUM_POST_LINK_HERE)".
+This README provides instructions on how to build, deploy, and configure the custom JWT generator. It follows the steps outlined in the Medium post "[Level Up Your API Security: Creating a Custom JWT Generator in WSO2 API Manager 4.3.0 (Beginner-Friendly)](https://medium.com/@lucas.tvms/level-up-your-api-security-creating-a-custom-jwt-generator-in-wso2-api-manager-4-3-0-618a156b59c1)".
 
 ## Table of Contents
 
@@ -127,9 +127,4 @@ Contributions to this project are welcome. Feel free to submit pull requests wit
 
 ## License
 
-This project is licensed under the [Specify your license here, e.g., Apache License 2.0](https://www.google.com/search?q=LICENSE).
-
-```
-
-**Remember to replace `YOUR_MEDIUM_POST_LINK_HERE` with the actual link to your Medium post.** You might also want to create a `LICENSE` file if you intend to open-source your code.
-```
+This project is licensed under the [Apache License 2.0](https://github.com/lucastvms/wso2/blob/master/LICENSE).
