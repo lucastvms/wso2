@@ -1,0 +1,43 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Gradle
+.gradle
+build/
+
+# Maven
+target/
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+*.tmp
+
+# Executables
+*.exe
+*.out
+
+# OS generated files
+Thumbs.db
+
+# Add any other project-specific files or directories within project1 or project2 you want to ignore here!
