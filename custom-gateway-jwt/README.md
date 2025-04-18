@@ -5,7 +5,7 @@ This project demonstrates how to create and deploy a custom Gateway JWT generato
 
 This README provides instructions on how to build, deploy, and configure the custom JWT generator. 
 It follows the steps outlined in the Medium post: 
-https://medium.com/@lucas.tvms/level-up-your-api-security-creating-a-custom-jwt-generator-in-wso2-api-manager-4-3-0-618a156b59c1.
+https://medium.com/@lucas.tvms/level-up-your-api-security-creating-a-custom-jwt-generator-in-wso2-api-manager-4-3-0-618a156b59c1
 
 ## Table of Contents
 
