@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1745448166511
+Build-Jdk: 11.0.26
+Built-By: lucas
+Bundle-ManifestVersion: 2
+Bundle-Name: custom-gateway-jwt
+Bundle-SymbolicName: org.example.custom-gateway-jwt
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.example;uses:="org.wso2.carbon.apimgt.common.gateway
+ .dto,org.wso2.carbon.apimgt.common.gateway.jwtgenerator";version="1.0.0
+ "
+Import-Package: org.wso2.carbon.apimgt.common.gateway.dto;version="[9.29
+ ,10)",org.wso2.carbon.apimgt.common.gateway.jwtgenerator;version="[9.29
+ ,10)",org.osgi.service.component.annotations;resolution:=optional;versi
+ on="[1.4,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="org.wso2.carb
+ on.apimgt.common.gateway.jwtgenerator.AbstractAPIMgtGatewayJWTGenerator
+ "
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/customGatewayJWTGenerator.xml
+Tool: Bnd-3.2.0.201605172007
